@@ -16,8 +16,8 @@ import com.hr.fer.zemris.parpro.cf.eval.exceptions.EvaluatorCloseException;
 public class Main {
 
     public static void main(String[] args) {
-        testGame();
-        // testMPI(args);
+        // testGame();
+        testMPI(args);
 
     }
     
@@ -34,7 +34,7 @@ public class Main {
 
     public static void testMPI(String[] args) {
         // default server values
-        String hostName = "165.227.128.107";
+        String hostName = "local";
         int port = 4444;
 
         if (args.length == 2) {

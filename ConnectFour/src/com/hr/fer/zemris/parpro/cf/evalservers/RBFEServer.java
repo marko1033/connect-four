@@ -24,10 +24,6 @@ public class RBFEServer {
         int portNumber;
         if (args.length != 1) {
             portNumber = 4444;
-            /*
-            System.err.println("Usage: java EchoServer <port number>");
-            System.exit(1);
-            */  
         } else {
             portNumber = Integer.parseInt(args[0]);
         }
